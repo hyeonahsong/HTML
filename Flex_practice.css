@@ -1,0 +1,55 @@
+body {
+        background-color: black;
+color: white;
+}
+
+#container1 {
+    /* 가로축을 기준으로 줄 세우는 속성 */
+    display: flex;
+}    
+
+#continer2 {
+    display: flex;    
+    /* 중심축을 반대축인 세로로 바꾸는 속성 */
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+.item {
+    width: 5vw;
+    height: 5vw;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: orange;
+}
+
+#box3 {
+    background-color: yellow;
+}
+
+
+#box4 {
+    background-color: green;
+}
+
+#box5 {
+    background-color: blue;
+}
+
+#box6 {
+    background-color: skyblue;
+}
+
+#box7 {
+    background-color: violet;
+}
+
+#box8 {
+    background-color: gray;
+}

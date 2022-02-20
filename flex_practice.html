@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Flex_practice.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex practice</title>
+</head>
+
+
+
+<body>
+    <div id="container1">
+    <div class="item" id="box1">box1</div>
+    <div class="item" id="box2">box2</div>
+    <div class="item" id="box3">box3</div>
+    <div class="item" id="box4">box4</div>
+</div>
+
+<div id="container2">
+    <div class="item" id="box5">box5</div>
+    <div class="item" id="box6">box6</div>
+    <div class="item" id="box7">box7</div>
+    <div class="item" id="box8">box8</div>
+</div>
+
+<hr>
+<p>
+    1. container 속성<br>
+    1). 중심축을 기준으로 한 속성<br>
+    /* 가로축을 기준으로 줄 세우는 속성 */<br>
+    display: flex;<br>
+    /* 중심축을 기준으로 요소들을 중간으로 배치*/<br>
+     justify-content: center; <br>
+    /* 중심축을 기준으로 요소들을 오른쪽으로 배치 */<br>
+    justify-content: right;<br>
+    /* 일정한 간격으로 요소들을 배치 */<br>
+    justify-content: space-around;<br>
+/* 요소를 반대로 정렬 */<br>
+flex-direction: row-reverse;<br>
+</p><br>
+
+<p>
+    2. 반대축을 기준으로 한 속성<br>
+    /* 중심축을 반대축인 세로로 바꾸는 속성 */<br>
+    flex-direction: column;<br>
+    /* 반대축을 기준으로 하여 가운데 정렬하는 속성 */<br>
+    align-items: center;<br>
+
+</p>
+
+
+</body>
+</html>
