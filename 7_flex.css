@@ -1,0 +1,46 @@
+/* 여러 div를 여백없이 줄 세우는 속성 */
+body {
+display: flex;
+flex-direction: column;
+height: auto;
+}
+
+/* h1내용이 완벽히 중앙에 오도록 하는 속성 */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 6vw;
+    background-color: black;
+    color: white;
+}
+
+/* title과 picture을 여백없고 균등하게 줄 세우는 속성 */
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+}
+/* ㄱㅏㄱ각  title과 picture를 세로로 정렬하는 속성 */
+#music, song, chello {
+display: flex;
+flex-direction: column;
+width: 100vw;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 4vw;
+    width: auto;
+    background-color: blue;
+    color: white
+}
+
+.picture {
+    width: 33vw;
+    height: 30;
+}
