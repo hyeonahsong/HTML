@@ -1,0 +1,93 @@
+* {
+padding: 0;
+margin: 0;
+pont-size: 10px;
+}
+
+body {
+  width: 100vw;
+  background-color: gray;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 3vw;
+  top: 0;
+left: 0;
+background-color: black;
+color: white
+}
+
+#title {
+  display: inline;
+  font-size: 2vw;
+}
+
+#center {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: auto;
+  margin-top: 4vw;
+margin-bottom: 10vw;
+}
+
+nav {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 20vw;
+  font-size: 1vw;
+  border: 2vw solid;
+border-radius: 5%;
+background-color: black;
+color: yellow;
+}
+#memo {
+  float: right;
+  width: 15vw;
+  height: 20vw;
+background-color: black;
+}
+
+footer {
+  text-align: center;
+  width: 100vw;
+  height: 7vw;
+  bottom: 0vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 0.7vw;
+  background-color: black;
+  color: white;
+  border-top: 0.2rem solid;
+}
+
+
+nav a {
+  text-align: center;
+display: inline-block;
+font-size: 1.5rem;
+border-top: 0.05rem solid;
+border-bottom: 0.05rem solid;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+nav a:first-child {
+  border-top: none;
+}
+
+nav a:last-child {
+  border-bottom: none;
+}
+
+
+
+#footer p {
+  font-size: 1.5rem;
+}
