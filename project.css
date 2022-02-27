@@ -48,13 +48,10 @@ background-color: beige;
 color: black;
 }
 
-#text_area{
-  /* background-image: none; */
-  width: 25vw;
-  height: 35vw;
+textarea{
+  background-image: https://kmug.co.kr/data/file/design/data_image_%EB%85%B8%ED%8A%B8%EB%9C%AF%EC%9D%80%EB%AA%A8%EC%96%91.jpg("./data/note.jpg");
   margin-top: 1vw;
   margin-right: 3.5vw;
-background-color: beige;
 }
 
 footer {
