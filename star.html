@@ -54,6 +54,23 @@ for (let i = 9; i >= 1; i-=2) {
   document.write("<br>");
 }
 
+
+
+
+// 여백은 9부터 2씩 감소하고 별은 1부터 증가하는 모양을 만들기 위해 고민중
+for (let m = 1; m <= 5; m++) {
+  for (let i = 7; i >= 1; i-=2) {
+    for (let j = 1; j <= i; j++) {
+      document.write("-");
+    }
+      for (let k = 1; k <= 9; k+=2) {
+        for (let l = 1; l <= k; l++) {
+          document.write("*");  
+        }
+      document.write("<br>");
+    }
+  }
+
     </script>
     
 </body>
