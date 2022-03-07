@@ -54,22 +54,19 @@ for (let i = 9; i >= 1; i-=2) {
   document.write("<br>");
 }
 
-
-
-
-// 여백은 9부터 2씩 감소하고 별은 1부터 증가하는 모양을 만들기 위해 고민중
-for (let m = 1; m <= 5; m++) {
-  for (let i = 7; i >= 1; i-=2) {
-    for (let j = 1; j <= i; j++) {
-      document.write("-");
-    }
-      for (let k = 1; k <= 9; k+=2) {
-        for (let l = 1; l <= k; l++) {
-          document.write("*");  
-        }
-      document.write("<br>");
-    }
+document.write("<hr>");
+document.write("<h2>6. 가운데 정렬된 2씩 증가하는 별 삼각형</h2>");
+document.write("<span>결과가 눈에 잘 보이기 위해 띄어쓰기 대신 - 사용</span><br>")
+for (let i = 1; i <= 5; i++) {
+  for (let j = 4; j >= i; j--) {
+    document.write("-");
   }
+  for (let k = 1; k <= i*2-1; k++) {
+    document.write("*");  
+  }
+ document.write("<br>");
+}
+  
 
     </script>
     
